@@ -1,11 +1,12 @@
 
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
 
 
 html,
@@ -15,12 +16,15 @@ body {
 
 
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: linen;
     color: black;
     min-height: 100vh;
 }
+
+
 
 
 
@@ -40,7 +44,6 @@ main {
 
 
 
-
 .intro {
     background-color: seashell;
     padding: 20px;
@@ -54,9 +57,11 @@ main {
 }
 
 
+
 .cards-container {
     width: 100%;
 }
+
 
 
 .card {
@@ -72,7 +77,6 @@ main {
 .card h3 {
     margin-bottom: 10px;
 }
-
 
 
 
@@ -92,16 +96,15 @@ footer {
         background-color: rosybrown;
     }
 
-
     footer {
         background-color: rosybrown;
     }
-    
 
     .card {
         display: inline-block;
         width: 30%;
         margin-right: 3%;
         vertical-align: top;
+        min-height: 220px;
     }
 }
